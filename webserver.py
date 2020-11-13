@@ -1,6 +1,6 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-html = "<html><body>Hi! This is a test page for this web server. You can change the site code in the file webserver.py</h3><img src="650.png"/></body></html>"
+html = '<html><body><h3>Hello from the Raspberry Pi</h3><img src="raspberrypi.jpg"/></body></html>'
 
 class ServerHandler(BaseHTTPRequestHandler):
     def do_GET(self):

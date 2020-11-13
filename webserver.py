@@ -1,7 +1,6 @@
-# -*- coding: cp1251 -*-
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-html = "<html><body>Привет! Это тестовая страница данного веб-сервера. Изменить код сайта можно в файле webserver.py   Больше информации на GitHub: https://github.com/TheDayG0ne/PyWebSRV</body></html>"
+html = "<html><body>Hi! This is a test page for this web server. You can change the site code in the file webserver.py</body></html>"
 
 class ServerHandler(BaseHTTPRequestHandler):
     def do_GET(self):
